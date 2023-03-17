@@ -5,8 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Menu = () => {
   return (
-    <section className="container fs-6 display-5 posicion">
-      <Container>
+    <section className="fs-6 display-5 posicion container-fluid">
         <Navbar
           bg="white"
           expand="lg"
@@ -42,7 +41,6 @@ const Menu = () => {
             </Navbar.Collapse>
           </Col>
         </Navbar>
-      </Container>
     </section>
   );
 };
