@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Menu = () => {
   return (
-    <section className="container fs-6 display-5">
+    <section className="container fs-6 display-5 posicion">
       <Container>
         <Navbar
           bg="white"
@@ -13,7 +13,7 @@ const Menu = () => {
           className="row fs-5 justify-content-between"
         >
           <Col md={12} lg={5} className="text-center text-lg-start pb-4">
-            <Navbar.Brand href="#">Icono</Navbar.Brand>
+            <Navbar.Brand href="#">Logo</Navbar.Brand>
           </Col>
           <Col md={12} lg={5} className="text-center">
             <Navbar.Toggle aria-controls="navbarScroll" />
@@ -23,19 +23,19 @@ const Menu = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link className="text-dark" href="#action1">
+                <Nav.Link className="text-dark" href="#inicio">
                   Inicio
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="#action2">
+                <Nav.Link className="text-dark" href="#servicios">
                   Servicios
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="#action2">
+                <Nav.Link className="text-dark" href="#preguntas">
                   FAQ
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="#action2">
+                <Nav.Link className="text-dark" href="#galeria">
                   Galeria
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="#action2">
+                <Nav.Link className="text-dark" href="#contacto">
                   Contacto
                 </Nav.Link>
               </Nav>

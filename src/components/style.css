@@ -3,8 +3,17 @@
   object-fit: cover;
 }
 .colorFondo{
-  background-color: #F8F8F8;
+  background-color: #E9EAEC 
+  ;
 }
+/* ---------------------------- */
+/* revisar */
+/* .posicion{
+  position: fixed;
+  z-index: 2;
+} */
+/* ------------------------ */
+
 
 @media all and (max-width: 767px) {
   .bannerPagina {

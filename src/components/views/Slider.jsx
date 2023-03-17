@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Slider = () => {
   return (
-    <section className="pb-4">
+    <section id="inicio" className="py-4">
       <Carousel fade>
         <Carousel.Item>
           <img

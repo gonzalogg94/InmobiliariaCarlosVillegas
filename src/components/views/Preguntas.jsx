@@ -3,7 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 
 const Preguntas = () => {
   return (
-    <article className="py-5 colorFondo">
+    <article id="preguntas" className="py-5 colorFondo text-center">
+        <h2 className="text-primary display-4 pb-3">Preguntas Frecuentes</h2>
       <Container>
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
