@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Servicios = () => {
   return (
-    <article className="container-fluid row py-5 justify-content-between">
+    <article className="container-fluid row py-5 justify-content-between bg-light">
       <Col className="text-center" lg={5} sm={12}>
         <h2 className="text-primary text-center display-4">Servicios</h2>
         <p className="text-center">

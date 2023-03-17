@@ -2,6 +2,9 @@
   height: 500px;
   object-fit: cover;
 }
+.colorFondo{
+  background-color: #F8F8F8;
+}
 
 @media all and (max-width: 767px) {
   .bannerPagina {
