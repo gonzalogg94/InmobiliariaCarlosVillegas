@@ -1,8 +1,7 @@
-.bannerPagina{
-    height: 500px;
+.bannerPagina {
+  height: 500px;
   object-fit: cover;
 }
-
 
 @media all and (max-width: 767px) {
   .bannerPagina {
