@@ -5,6 +5,7 @@ import Slider from "./components/views/Slider";
 import Servicios from "./components/views/Servicios";
 import Preguntas from "./components/views/Preguntas";
 import Galeria from "./components/views/Galeria";
+import FormularioConsulta from "./components/views/FormularioConsulta";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Servicios></Servicios>
       <Preguntas></Preguntas>
       <Galeria></Galeria>
+      <FormularioConsulta></FormularioConsulta>
     </>
   );
 }
