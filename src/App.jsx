@@ -4,6 +4,7 @@ import Menu from "./components/common/Menu";
 import Slider from "./components/views/Slider";
 import Servicios from "./components/views/Servicios";
 import Preguntas from "./components/views/Preguntas";
+import Galeria from "./components/views/Galeria";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Slider></Slider>
       <Servicios></Servicios>
       <Preguntas></Preguntas>
+      <Galeria></Galeria>
     </>
   );
 }

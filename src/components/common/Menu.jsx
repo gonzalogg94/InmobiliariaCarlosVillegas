@@ -1,5 +1,4 @@
 import { Col } from "react-bootstrap";
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -11,7 +10,7 @@ const Menu = () => {
           expand="lg"
           className="row fs-5 justify-content-between"
         >
-          <Col md={12} lg={5} className="text-center text-lg-start pb-4">
+          <Col md={12} lg={5} className="text-center  pb-4">
             <Navbar.Brand href="#">Logo</Navbar.Brand>
           </Col>
           <Col md={12} lg={5} className="text-center">
@@ -22,19 +21,19 @@ const Menu = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link className="text-dark" href="#inicio">
+                <Nav.Link className="colorAzul" href="#inicio">
                   Inicio
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="#servicios">
+                <Nav.Link className="colorAzul" href="#servicios">
                   Servicios
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="#preguntas">
+                <Nav.Link className="colorAzul" href="#preguntas">
                   FAQ
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="#galeria">
+                <Nav.Link className="colorAzul" href="#galeria">
                   Galeria
                 </Nav.Link>
-                <Nav.Link className="text-dark" href="#contacto">
+                <Nav.Link className="colorAzul" href="#contacto">
                   Contacto
                 </Nav.Link>
               </Nav>
