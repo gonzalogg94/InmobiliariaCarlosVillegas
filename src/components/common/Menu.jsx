@@ -1,6 +1,7 @@
 import { Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import logo from "../img/logo.png"
 
 const Menu = () => {
   return (
@@ -11,7 +12,7 @@ const Menu = () => {
           className="row fs-5 justify-content-between"
         >
           <Col md={12} lg={5} className="text-center  pb-4">
-            <Navbar.Brand href="#">Logo</Navbar.Brand>
+            <Navbar.Brand href="#"><img src={logo} alt="Logo" className="w-25 m-0 p-0" /></Navbar.Brand>
           </Col>
           <Col md={12} lg={5} className="text-center">
             <Navbar.Toggle aria-controls="navbarScroll" />
