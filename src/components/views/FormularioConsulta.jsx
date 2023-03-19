@@ -1,15 +1,27 @@
 import { Container, Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import emailjs from "@emailjs/browser";
+import React, {useRef} from 'react';
 
 const FormularioConsulta = () => {
-  const sendEmail=(event)=>{
-    event.preventDefault();
+ 
+const refForm=useRef();
 
-emailjs.sendForm('service_3xcx39y','template_4gccdsn',event.target,'fDrf7ib8tZNU5G21n')
-.then(response=>console.log(response))
+const handleSubmit=(event)=>{
+
+event.preventDefault();
+console.log(refForm.current)
+const serviceId='service_3xcx39y';
+const templated='template_4gccdsn';
+// 3 parametro
+const apiKey='fDrf7ib8tZNU5G21n'
+
+emailjs.sendForm(serviceId,templated,refForm.current,apiKey)
+.then(result=>console.log(result))
 .catch(error=>console.log(error))
-  }
+
+}
+ 
   return (
     <section id="contacto" className="container-fluid py-4 colorFondo">
       <div className="text-center pb-2 container">
@@ -26,27 +38,27 @@ emailjs.sendForm('service_3xcx39y','template_4gccdsn',event.target,'fDrf7ib8tZNU
         <i class="bi bi-whatsapp">+543816254879</i>
       </div>
       <Container className="pt-4">
-        <Form onSubmit={sendEmail}>
-          <Form.Group className="mb-3" controlId="formNombre">
-            <Form.Label>Nombre completo</Form.Label>
-            <Form.Control type="text" placeholder="Nombre Completo" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="formMail">
-            <Form.Label>Ingrese un mail de contacto</Form.Label>
-            <Form.Control type="email" placeholder="name@example.com" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="formNumero">
-            <Form.Label>Ingrese un numero de contacto</Form.Label>
-            <Form.Control type="number" placeholder="+543815768940" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="formConsulta">
-            <Form.Label>Ingrese su consulta</Form.Label>
-            <Form.Control as="textarea" rows={3} />
-          </Form.Group>
-          <Button variant="primary" type="submit">
-            Enviar Consulta
-          </Button>
-        </Form>
+ <Form ref={refForm} onSubmit={handleSubmit}>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Ingrese su nombre completo</Form.Label>
+        <Form.Control name="formNombre" type="text" placeholder="nombre completo" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Ingrese su numero de contacto</Form.Label>
+        <Form.Control name="formNumero" type="number" placeholder="codigo de pais seguido de su codigo de area " />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Ingrese un mail de contacto</Form.Label>
+        <Form.Control name="formMail" type="email" placeholder="name@example.com" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Ingrese su consulta</Form.Label>
+        <Form.Control name="formConsulta" as="textarea" rows={3} />
+      </Form.Group>
+      <Button variant="primary" type="submit">
+        Enviar
+      </Button>
+    </Form>
       </Container>
     </section>
   );
