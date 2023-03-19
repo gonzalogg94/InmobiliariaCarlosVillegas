@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container,Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 const FormularioConsulta = () => {
   return (
@@ -30,6 +30,10 @@ const FormularioConsulta = () => {
             <Form.Label>Ingrese su consulta</Form.Label>
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
+          <Button variant="primary" type="submit">
+        Enviar Consulta
+      </Button>
+          
         </Form>
       </Container>
     </section>
