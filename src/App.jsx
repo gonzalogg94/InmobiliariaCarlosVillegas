@@ -9,6 +9,7 @@ import Galeria from "./components/views/Galeria";
 import FormularioConsulta from "./components/views/FormularioConsulta";
 import Footer from "./components/common/Footer";
 
+
 function App() {
   return (
     <>
