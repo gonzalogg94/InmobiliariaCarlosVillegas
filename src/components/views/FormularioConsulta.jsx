@@ -126,6 +126,7 @@ const FormularioConsulta = () => {
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label>Ingrese su consulta</Form.Label>
             <Form.Control
+            placeholder="Ingrese aqui su consulta"
               as="textarea"
               rows={3}
               {...register("formConsulta", {
