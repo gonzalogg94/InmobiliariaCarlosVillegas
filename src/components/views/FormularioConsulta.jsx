@@ -10,6 +10,7 @@ const FormularioConsulta = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset
   } = useForm({
     defaultValues: {
       formNombre: "",
@@ -33,6 +34,7 @@ const FormularioConsulta = () => {
             title: "OK",
             text: "Su consulta se envio satisfactoriamente",
           });
+          reset();
           
         } else {
           Swal.fire({
