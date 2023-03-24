@@ -21,9 +21,9 @@ const FormularioConsulta = () => {
   });
   const refForm = useRef();
   const enviarFormulario = () => {
-    const serviceId = "service_3xcx39y";
-    const templated = "template_4gccdsn";
-    const apiKey = "fDrf7ib8tZNU5G21n";
+    const serviceId = process.env.REACT_APP_API_SERVICE;
+    const templated = process.env.REACT_APP_API_TEMPLATED;
+    const apiKey = process.env.REACT_APP_API_APIKEY;
 
     emailjs
       .sendForm(serviceId, templated, refForm.current, apiKey)
