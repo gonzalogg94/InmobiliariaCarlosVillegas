@@ -12,7 +12,7 @@ const Menu = () => {
         className="row fs-5 justify-content-between"
       >
         <Col md={12} lg={3} className="text-center  pb-4">
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="logo de la empresa">
             <img src={icono} alt="LogoInmobiliaria" className="w-25" />
           </Navbar.Brand>
         </Col>
