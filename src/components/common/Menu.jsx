@@ -1,7 +1,7 @@
 import { Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import icono from "../img/icono.png"
+import logoInmobiliaria from "../img/logoInmobiliaria.png"
 
 const Menu = () => {
   return (
@@ -13,7 +13,7 @@ const Menu = () => {
       >
         <Col md={12} lg={3} className="text-center  pb-4">
           <Navbar.Brand href="logo de la empresa">
-            <img src={icono} alt="LogoInmobiliaria" className="w-25" />
+            <img src={logoInmobiliaria} alt="LogoInmobiliaria" className="w-25" />
           </Navbar.Brand>
         </Col>
         <Col md={12} lg={5} className="text-center">
