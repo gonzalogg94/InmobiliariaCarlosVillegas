@@ -21,9 +21,9 @@ const FormularioConsulta = () => {
   });
   const refForm = useRef();
   const enviarFormulario = () => {
-    const serviceId = process.env.REACT_APP_API_SERVICE;
-    const templated = process.env.REACT_APP_API_TEMPLATED;
-    const apiKey = process.env.REACT_APP_API_APIKEY;
+    const serviceId ="service_7thmi9g";
+    const templated ="template_narjbyk";
+    const apiKey ="K-H6vr7XHHLbWz8P3";
 
     emailjs
       .sendForm(serviceId, templated, refForm.current, apiKey)
@@ -54,13 +54,13 @@ const FormularioConsulta = () => {
         <hr />
       </div>
       <div className="text-center">
-        <i class="bi bi-envelope">inmobiliariavillegas@gmail.com</i>
+        <i class="bi bi-envelope">carlos.f.villegas2023@gmail.com</i>
       </div>
       <div className="text-center">
         <i class="bi bi-instagram">InmobiliariaVillegas</i>
       </div>
       <div className="text-center">
-        <i class="bi bi-whatsapp">+543816254879</i>
+        <i class="bi bi-whatsapp">+543814581973</i>
       </div>
       <Container className="pt-4">
         <Form ref={refForm} onSubmit={handleSubmit(enviarFormulario)}>
