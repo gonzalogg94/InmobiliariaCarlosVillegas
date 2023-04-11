@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import logoInmobiliaria from "../img/logoInmobiliaria.png"
+import logo from "../img/logo.jpg"
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <article className="col-12">
           <div className="row">
             <Col lg={3} className="ps-4 py-3">
-              <img src={logoInmobiliaria} alt="Logo" className="w-25" />
+              <img src={logo} alt="Logo" className="w-25" />
             </Col>
             <Col lg={3} className="py-3">
               <ul className="lista">
