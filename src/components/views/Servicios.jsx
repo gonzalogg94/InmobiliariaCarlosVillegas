@@ -8,7 +8,7 @@ const Servicios = () => {
         <h2 className="text-primary text-center display-4">Servicios</h2>
         <div className="pt-3">  
         <p>
-        •	Consultara en comercio exterior.
+        •	Consultora en comercio exterior.
         </p>
         <p className="text-start">
         •	Inversiones, y oportunidad de negocios en Argentina, Brasil, España y el mundo.

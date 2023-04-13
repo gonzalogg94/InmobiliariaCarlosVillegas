@@ -9,7 +9,7 @@ const Galeria = () => {
       </h2>
       <hr />
       <div className="container">
-        <Link>
+        <Link className="text-decoration-none">
           <h3 className="display-5">España</h3>
         </Link>
         <hr />
@@ -38,7 +38,7 @@ const Galeria = () => {
         </Col>
       </div>
       <div className="container">
-        <Link>
+        <Link className="text-decoration-none">
           <h3 className="display-5">Brasil</h3>
         </Link>
         <hr />
@@ -67,7 +67,7 @@ const Galeria = () => {
         </Col>
       </div>
       <div className="container">
-        <Link>
+        <Link className="text-decoration-none">
           <h3 className="display-5">Argentina</h3>
         </Link>
         <hr />
@@ -96,7 +96,7 @@ const Galeria = () => {
         </Col>
       </div>
       <div className="container">
-        <Link>
+        <Link className="text-decoration-none">
           <h3 className="display-5">El mundo...</h3>
         </Link>
         <hr />
