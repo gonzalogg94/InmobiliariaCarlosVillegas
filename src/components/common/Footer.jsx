@@ -41,6 +41,9 @@ const Footer = () => {
                 <li>
                   <i class="bi bi-geo-alt-fill text-danger"></i>España
                 </li>
+                <li>
+                  <i class="bi bi-geo-alt-fill text-danger"></i>El Mundo...s
+                </li>
               </ul>
             </Col>
             <Col lg={3} className="py-3">
