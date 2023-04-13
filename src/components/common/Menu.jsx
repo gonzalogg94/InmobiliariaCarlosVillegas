@@ -36,6 +36,9 @@ const Menu = () => {
               <Nav.Link className="colorAzul" href="#galeria">
                 Galeria
               </Nav.Link>
+              <Nav.Link className="colorAzul" href="#empresas">
+                Empresas
+              </Nav.Link>
               <Nav.Link className="colorAzul" href="#contacto">
                 Contacto
               </Nav.Link>

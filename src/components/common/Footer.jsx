@@ -26,6 +26,9 @@ const Footer = () => {
                   <Nav.Link href="#galeria">Galeria</Nav.Link>
                 </li>
                 <li>
+                  <Nav.Link href="#empresas">Empresas</Nav.Link>
+                </li>
+                <li>
                   <Nav.Link href="#contacto">Contacto</Nav.Link>
                 </li>
               </ul>

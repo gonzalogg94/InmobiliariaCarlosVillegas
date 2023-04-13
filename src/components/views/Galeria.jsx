@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Galeria = () => {
   return (
@@ -8,8 +9,10 @@ const Galeria = () => {
       </h2>
       <hr />
       <div className="container">
-      <h3 className="display-5">España</h3>
-      <hr />
+        <Link>
+          <h3 className="display-5">España</h3>
+        </Link>
+        <hr />
       </div>
       <div className="row justify-content-between">
         <Col lg={4} md={4} sm={12}>
@@ -35,8 +38,10 @@ const Galeria = () => {
         </Col>
       </div>
       <div className="container">
-      <h3 className="display-5">Brasil</h3>
-      <hr />
+        <Link>
+          <h3 className="display-5">Brasil</h3>
+        </Link>
+        <hr />
       </div>
       <div className="row justify-content-between">
         <Col lg={4} md={4} sm={12}>
@@ -62,8 +67,10 @@ const Galeria = () => {
         </Col>
       </div>
       <div className="container">
-      <h3 className="display-5">Argentina</h3>
-      <hr />
+        <Link>
+          <h3 className="display-5">Argentina</h3>
+        </Link>
+        <hr />
       </div>
       <div className="row justify-content-between">
         <Col lg={4} md={4} sm={12}>
@@ -89,8 +96,10 @@ const Galeria = () => {
         </Col>
       </div>
       <div className="container">
-      <h3 className="display-5">El mundo...</h3>
-      <hr />
+        <Link>
+          <h3 className="display-5">El mundo...</h3>
+        </Link>
+        <hr />
       </div>
       <div className="row justify-content-between">
         <Col lg={4} md={4} sm={12}>
