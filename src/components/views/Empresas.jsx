@@ -1,29 +1,30 @@
-import { Container,Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
+
 
 const Empresas = () => {
   return (
-    <section className="justify-content-center">
-    <Container className="py-4 row justify-content-center" id="empresas">
-<div className="text-center pb-2 container">
-        <h2 className="display-4 colorAzul">Empresas Asociadas</h2>
-        <hr />
-      </div>
-      <Col lg={6} md={6} sm={6}>
-          <img
-            src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            className="w-75 border border-5 border border-5"
-            alt="imagen ilustrativa"
-          />
-        </Col>
-      <Col lg={6} md={6} sm={6}>
-          <img
-            src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            className="w-75 border border-5 border border-5"
-            alt="imagen ilustrativa"
-          />
-        </Col>
-    </Container>
-    </section>
+    <article id="empresas" className="text-center container-fluid  py-5">
+    <h2 className="display-4 colorAzul text-center">
+      Empresas asociadas
+    </h2>
+    <hr />
+    <div className="row justify-content-center">
+      <Col lg={5} md={5} sm={5}>
+        <img
+          src="https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          className="w-75 border border-5 border border-5"
+          alt="imagen ilustrativa"
+        />
+      </Col>
+      <Col lg={5} md={5} sm={5}>
+        <img
+          src="https://images.pexels.com/photos/936713/pexels-photo-936713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          className="w-75 border border-5"
+          alt="imagen modelo"
+        />
+      </Col>
+    </div>
+  </article>
   );
 };
 
