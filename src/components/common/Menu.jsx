@@ -27,19 +27,19 @@ const Menu = () => {
               <Nav.Link className="colorAzul" href="#inicio">
                 Inicio
               </Nav.Link>
-              <Nav.Link className="colorAzul" href="#servicios">
+              <Nav.Link className="colorAzul" href="/#servicios">
                 Servicios
               </Nav.Link>
-              <Nav.Link className="colorAzul" href="#preguntas">
+              <Nav.Link className="colorAzul" href="/#preguntas">
                 FAQ
               </Nav.Link>
-              <Nav.Link className="colorAzul" href="#galeria">
+              <Nav.Link className="colorAzul" href="/#galeria">
                 Galeria
               </Nav.Link>
-              <Nav.Link className="colorAzul" href="#empresas">
+              <Nav.Link className="colorAzul" href="/#empresas">
                 Empresas
               </Nav.Link>
-              <Nav.Link className="colorAzul" href="#contacto">
+              <Nav.Link className="colorAzul" href="/#contacto">
                 Contacto
               </Nav.Link>
             </Nav>

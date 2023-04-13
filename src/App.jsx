@@ -5,6 +5,7 @@ import Menu from "./components/common/Menu";
 import Footer from "./components/common/Footer";
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Inicio from "./components/views/Inicio";
+import DepartamentosArgentina from "./components/views/DepartamentosArgentina";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Menu></Menu>
       <Routes>
         <Route path='/' element={<Inicio></Inicio>}></Route>
-        <Route path='/argentina' element={<Inicio></Inicio>}></Route>
+        <Route path='/argentina' element={<DepartamentosArgentina></DepartamentosArgentina>}></Route>
         <Route path='/brasil' element={<Inicio></Inicio>}></Route>
         <Route path='/españa' element={<Inicio></Inicio>}></Route>
         <Route path='/elmundo' element={<Inicio></Inicio>}></Route>
