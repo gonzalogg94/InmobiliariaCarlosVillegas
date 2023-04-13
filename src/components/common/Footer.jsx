@@ -42,7 +42,7 @@ const Footer = () => {
                   <i class="bi bi-geo-alt-fill text-danger"></i>España
                 </li>
                 <li>
-                  <i class="bi bi-geo-alt-fill text-danger"></i>El Mundo...s
+                  <i class="bi bi-geo-alt-fill text-danger"></i>El Mundo...
                 </li>
               </ul>
             </Col>
