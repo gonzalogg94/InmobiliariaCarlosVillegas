@@ -1,13 +1,13 @@
 import { Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 
-const DepartamentosArgentina = () => {
+const DepartamentosBrasil = () => {
   return (
     <section>
       <article className="container-fluid row py-5 justify-content-between colorFondo posicionFija">
         <div className="pb-5">
           <h2 className="text-primary text-center display-4">
-            Propiedades En Argentina
+            Propiedades En Brasil
           </h2>
         </div>
         <Col lg={5} sm={12}>
@@ -157,4 +157,4 @@ const DepartamentosArgentina = () => {
   );
 };
 
-export default DepartamentosArgentina;
+export default DepartamentosBrasil;
