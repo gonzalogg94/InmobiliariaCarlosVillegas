@@ -9,7 +9,7 @@ const Galeria = () => {
       </h2>
       <hr />
       <div className="container">
-        <Link className="text-decoration-none">
+        <Link className="text-decoration-none"  to={"/españa"}>
           <h3 className="display-5">España</h3>
         </Link>
         <hr />
@@ -38,7 +38,7 @@ const Galeria = () => {
         </Col>
       </div>
       <div className="container">
-        <Link className="text-decoration-none">
+        <Link className="text-decoration-none"  to={"/brasil"}>
           <h3 className="display-5">Brasil</h3>
         </Link>
         <hr />
@@ -67,7 +67,7 @@ const Galeria = () => {
         </Col>
       </div>
       <div className="container">
-        <Link className="text-decoration-none">
+        <Link className="text-decoration-none" to={"/argentina"}>
           <h3 className="display-5">Argentina</h3>
         </Link>
         <hr />

@@ -1,6 +1,7 @@
 import { Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import logo from "../img/logo.jpg"
+import logo from "../img/logo.jpg";
+import Navbar from "react-bootstrap/Navbar";
 
 const Footer = () => {
   return (
@@ -9,27 +10,29 @@ const Footer = () => {
         <article className="col-12">
           <div className="row">
             <Col lg={3} className="ps-4 py-3">
-              <img src={logo} alt="Logo" className="w-25" />
+            <Navbar.Brand href="/">
+            <img src={logo} alt="LogoInmobiliaria" className="w-25" />
+          </Navbar.Brand>
             </Col>
             <Col lg={3} className="py-3">
               <ul className="lista">
                 <li>
-                  <Nav.Link href="#inicio">Inicio</Nav.Link>
+                  <Nav.Link href="/#inicio">Inicio</Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link href="#servicios">Servicios</Nav.Link>
+                  <Nav.Link href="/#servicios">Servicios</Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link href="#preguntas">FQA</Nav.Link>
+                  <Nav.Link href="/#preguntas">FQA</Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link href="#galeria">Galeria</Nav.Link>
+                  <Nav.Link href="/#galeria">Galeria</Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link href="#empresas">Empresas</Nav.Link>
+                  <Nav.Link href="/#empresas">Empresas</Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link href="#contacto">Contacto</Nav.Link>
+                  <Nav.Link href="/#contacto">Contacto</Nav.Link>
                 </li>
               </ul>
             </Col>

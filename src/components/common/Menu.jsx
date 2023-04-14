@@ -12,9 +12,10 @@ const Menu = () => {
         className="row fs-5 justify-content-between"
       >
         <Col md={12} lg={3} className="text-center  pb-4">
-          <Navbar.Brand href="logo de la empresa">
+          <Navbar.Brand href="/">
             <img src={logo} alt="LogoInmobiliaria" className="w-25" />
           </Navbar.Brand>
+         
         </Col>
         <Col md={12} lg={5} className="text-center">
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,7 +25,7 @@ const Menu = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link className="colorAzul" href="#inicio">
+              <Nav.Link className="colorAzul" href="/#inicio">
                 Inicio
               </Nav.Link>
               <Nav.Link className="colorAzul" href="/#servicios">
