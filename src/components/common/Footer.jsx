@@ -1,7 +1,8 @@
-import { Col, NavLink } from "react-bootstrap";
+import { Col} from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import logo from "../img/logo.jpg";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -39,19 +40,19 @@ const Footer = () => {
             <Col lg={3} className="py-3">
               <ul className="lista">
                 <li>
-                  <NavLink href="/argentina">
+                  <Link className="text-decoration-none text-black" to={"/argentina"}>
                     <i class="bi bi-geo-alt-fill text-danger"></i>Argentina
-                  </NavLink>
+                  </Link>
                 </li>
                 <li>
-                  <NavLink href="/brasil">
-                  <i class="bi bi-geo-alt-fill text-danger"></i>Brasil
-                  </NavLink>
+                <Link className="text-decoration-none text-black" to={"/brasil"}>
+                    <i class="bi bi-geo-alt-fill text-danger"></i>Brasil
+                  </Link>
                 </li>
                 <li>
-                  <NavLink href="/españa">
-                  <i class="bi bi-geo-alt-fill text-danger"></i>España
-                  </NavLink>
+                <Link className="text-decoration-none text-black" to={"/españa"}>
+                    <i class="bi bi-geo-alt-fill text-danger"></i>España
+                  </Link>
                 </li>
                 <li>
                   <i class="bi bi-geo-alt-fill text-danger"></i>El Mundo...
