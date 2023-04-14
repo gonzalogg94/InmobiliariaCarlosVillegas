@@ -1,4 +1,4 @@
-import { Col } from "react-bootstrap";
+import { Col, NavLink } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import logo from "../img/logo.jpg";
 import Navbar from "react-bootstrap/Navbar";
@@ -10,9 +10,9 @@ const Footer = () => {
         <article className="col-12">
           <div className="row">
             <Col lg={3} className="ps-4 py-3">
-            <Navbar.Brand href="/">
-            <img src={logo} alt="LogoInmobiliaria" className="w-25" />
-          </Navbar.Brand>
+              <Navbar.Brand href="/">
+                <img src={logo} alt="LogoInmobiliaria" className="w-25" />
+              </Navbar.Brand>
             </Col>
             <Col lg={3} className="py-3">
               <ul className="lista">
@@ -39,13 +39,19 @@ const Footer = () => {
             <Col lg={3} className="py-3">
               <ul className="lista">
                 <li>
-                  <i class="bi bi-geo-alt-fill text-danger"></i>Argentina
+                  <NavLink href="/argentina">
+                    <i class="bi bi-geo-alt-fill text-danger"></i>Argentina
+                  </NavLink>
                 </li>
                 <li>
+                  <NavLink href="/brasil">
                   <i class="bi bi-geo-alt-fill text-danger"></i>Brasil
+                  </NavLink>
                 </li>
                 <li>
+                  <NavLink href="/españa">
                   <i class="bi bi-geo-alt-fill text-danger"></i>España
+                  </NavLink>
                 </li>
                 <li>
                   <i class="bi bi-geo-alt-fill text-danger"></i>El Mundo...
@@ -55,18 +61,20 @@ const Footer = () => {
             <Col lg={3} className="py-3">
               <ul className="lista">
                 <li>
+                  <Nav.Link href="https://www.google.com/intl/es-419/gmail/about/">
+                    <i class="bi bi-envelope">
+                      carlos.f.villegas2023@gmail.com
+                    </i>
+                  </Nav.Link>
+                </li>
+                <li>
                   <Nav.Link href="https://www.instagram.com/">
-                    <i class="bi bi-instagram text-danger"></i>Instagram
+                    <i class="bi bi-instagram">@InmobiliariaVillegas</i>
                   </Nav.Link>
                 </li>
                 <li>
-                  <Nav.Link href="https://accounts.google.com/v3/signin/identifier?dsh=S-753980876%3A1679490706070721&hl=Es&ifkv=AWnogHe0DZc5_bnue6D4l6fN8ShvbKzhUNQbfvwmub7RwnLPgWKlRtXEksZDv2ryKGZEyEbPqVDD&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
-                    <i class="bi bi-envelope-at text-danger"></i>Mail
-                  </Nav.Link>
-                </li>
-                <li>
-                  <Nav.Link href="https://web.whatsapp.com/">
-                    <i class="bi bi-whatsapp text-success"></i>Whatsapp
+                  <Nav.Link href="https://wa.me/543814581973?text=Buenos%20d%C3%ADas,%20estuve%20visitando%20su%20pagina%20web%20y%20me%20gastar%C3%ADa%20hacer%20una%20consulta.">
+                    <i class="bi bi-whatsapp">+543814581973</i>
                   </Nav.Link>
                 </li>
               </ul>

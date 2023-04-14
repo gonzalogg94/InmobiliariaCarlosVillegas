@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 const DepartamentosEspania = () => {
   return (
     <section>
-      <article className="container-fluid row py-5 justify-content-between colorFondo posicionFija">
+      <article className="container-fluid row py-5 justify-content-between colorFondo ">
         <div className="pb-5">
           <h2 className="text-primary text-center display-4">
             Propiedades En España
@@ -56,7 +56,7 @@ const DepartamentosEspania = () => {
           </Carousel>
         </Col>
       </article>
-      <article className="container-fluid row py-5 justify-content-between colorFondo posicionFija flex-column-reverse flex-lg-row">
+      <article className="container-fluid row py-5 justify-content-between colorFondo  flex-column-reverse flex-lg-row">
         <Col lg={5} sm={12} className="text-center py-3">
           <Carousel fade>
             <Carousel.Item>
@@ -104,7 +104,7 @@ const DepartamentosEspania = () => {
           </div>
         </Col>
       </article>
-      <article className="container-fluid row py-5 justify-content-between colorFondo posicionFija">
+      <article className="container-fluid row py-5 justify-content-between colorFondo ">
         <Col lg={5} sm={12}>
           <h2 className="text-primary text-center display-4">Departamento 3</h2>
           <div className="pt-3">
