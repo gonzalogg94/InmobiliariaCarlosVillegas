@@ -4,16 +4,22 @@ import Carousel from "react-bootstrap/Carousel";
 const Servicios = () => {
   return (
     <article id="servicios" className="container-fluid row py-5 justify-content-between bg-light posicionFija">
-      <Col className="text-center" lg={5} sm={12}>
+      <Col  lg={5} sm={12}>
         <h2 className="text-primary text-center display-4">Servicios</h2>
-        <p className="text-center">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          facere magni minima, quam nisi alias, possimus earum veniam
-          reprehenderit non nostrum dolore quibusdam aliquid tempora amet illo
-          quas vitae eius? Delectus, alias accusantium earum vel laudantium
-          eius. Officiis reprehenderit voluptatibus odit maxime velit,
-          excepturi, consequatur nobis praesentium expedita assumenda amet.
+        <div className="pt-3">  
+        <p>
+        •	Consultora en comercio exterior.
         </p>
+        <p className="text-start">
+        •	Inversiones, y oportunidad de negocios en Argentina, Brasil, España y el mundo.
+        </p>
+        <p>
+        •	Negocios y oportunidades para la industria en todo el mundo.
+        </p>
+        <p>
+        •	Propiedades: negocios inmobiliarios en todos sus aspectos y proyectos de inversión.
+        </p>
+        </div>
       </Col>
       <Col lg={5} sm={12} className="text-center">
         <Carousel fade>

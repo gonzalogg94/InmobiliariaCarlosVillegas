@@ -10,7 +10,7 @@ const FormularioConsulta = () => {
     register,
     handleSubmit,
     formState: { errors },
-    reset
+    reset,
   } = useForm({
     defaultValues: {
       formNombre: "",
@@ -21,9 +21,9 @@ const FormularioConsulta = () => {
   });
   const refForm = useRef();
   const enviarFormulario = () => {
-    const serviceId = process.env.REACT_APP_API_SERVICE;
-    const templated = process.env.REACT_APP_API_TEMPLATED;
-    const apiKey = process.env.REACT_APP_API_APIKEY;
+    const serviceId = "service_7thmi9g";
+    const templated = "template_narjbyk";
+    const apiKey = "K-H6vr7XHHLbWz8P3";
 
     emailjs
       .sendForm(serviceId, templated, refForm.current, apiKey)
@@ -35,7 +35,6 @@ const FormularioConsulta = () => {
             text: "Su consulta se envio satisfactoriamente",
           });
           reset();
-          
         } else {
           Swal.fire({
             icon: "error",
@@ -53,15 +52,7 @@ const FormularioConsulta = () => {
         <h2 className="display-4 colorAzul">Consultas</h2>
         <hr />
       </div>
-      <div className="text-center">
-        <i class="bi bi-envelope">inmobiliariavillegas@gmail.com</i>
-      </div>
-      <div className="text-center">
-        <i class="bi bi-instagram">InmobiliariaVillegas</i>
-      </div>
-      <div className="text-center">
-        <i class="bi bi-whatsapp">+543816254879</i>
-      </div>
+
       <Container className="pt-4">
         <Form ref={refForm} onSubmit={handleSubmit(enviarFormulario)}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -126,7 +117,7 @@ const FormularioConsulta = () => {
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label>Ingrese su consulta</Form.Label>
             <Form.Control
-            placeholder="Ingrese aqui su consulta"
+              placeholder="Ingrese aqui su consulta"
               as="textarea"
               rows={3}
               {...register("formConsulta", {
