@@ -16,7 +16,7 @@ const Preguntas = () => {
           <Accordion.Item eventKey="1">
             <Accordion.Header>¿Como puedo contactarme?</Accordion.Header>
             <Accordion.Body className="text-start">
-            Podes contactarte con nosotros a través de nuestras redes sociales o bien podes hacerlo desde nuestra pagina web en el apartado de contacto donde intentaremos asesorarte y brindarte una respuesta lo más rápido posible.
+            Podes contactarte con nosotros a través de nuestras redes sociales o bien podes hacerlo desde nuestra pagina web en el apartado de contacto donde nos contactaremos contigo lo mas rápido posible.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

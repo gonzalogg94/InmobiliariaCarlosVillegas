@@ -13,7 +13,7 @@
 .posicion{
   position: sticky;
   top: 0%;
-  z-index: 2;
+  z-index: 5;
 }
 .lista{
   list-style: none;

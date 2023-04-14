@@ -17,21 +17,21 @@ const Galeria = () => {
       <div className="row justify-content-between">
         <Col lg={4} md={4} sm={12}>
           <img
-            src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/2111768/pexels-photo-2111768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="w-75 border border-5 border border-5"
             alt="imagen ilustrativa"
           />
         </Col>
         <Col lg={4} md={4} sm={12}>
           <img
-            src="https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="w-75 border border-5"
             alt="imagen modelo"
           />
         </Col>
         <Col lg={4} md={4} sm={12}>
           <img
-            src="https://images.pexels.com/photos/205078/pexels-photo-205078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="w-75 border border-5"
             alt="imagen modelo"
           />
@@ -46,21 +46,21 @@ const Galeria = () => {
       <div className="row justify-content-between">
         <Col lg={4} md={4} sm={12}>
           <img
-            src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="w-75 border border-5 border border-5"
             alt="imagen ilustrativa"
           />
         </Col>
         <Col lg={4} md={4} sm={12}>
           <img
-            src="https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/565324/pexels-photo-565324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="w-75 border border-5"
             alt="imagen modelo"
           />
         </Col>
         <Col lg={4} md={4} sm={12}>
           <img
-            src="https://images.pexels.com/photos/205078/pexels-photo-205078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/323772/pexels-photo-323772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="w-75 border border-5"
             alt="imagen modelo"
           />
